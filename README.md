@@ -3,7 +3,10 @@
 Using the provided SQL table schemas (`Claim`, `ClaimDetail`, and `ReinsContract`), write a single SQL query to identify subscribers who have exceeded their specific reinsurance deductible and are eligible for reimbursement.
 
 ### **Health Insurance Terminology**
-
+- **Reinsurance Deductible**: This is the amount of loss that the primary insurer must cover before reinsurance kicks in. In other words, it's the threshold that must be met before the reinsurer becomes liable for part of the loss.
+- **Specific Deductible**: A specific deductible applies to individual claims, meaning the policyholder must pay a set amount out-of-pocket for each claim before the insurance coverage begins to pay. It’s often used in health, auto, and property insurance.
+- **Claim**: A request made by an insured party to an insurance company for coverage or compensation for a covered event or loss. The claim process involves the policyholder submitting documentation for evaluation and reimbursement.
+- **Subscriber**: In insurance, a subscriber is the individual or entity who enrolls in an insurance plan (e.g., health insurance). They are the primary insured person, often responsible for paying premiums, and may also be the policyholder in some cases.
 - **Claim Identification**: Columns like `Claim_Number`, `Claim_ID`, and `Batch_Number` are likely used for unique identification and grouping of claims.
 - **Patient Information**: Fields like `Subscriber_ID`, `Member_Seq`, `Group_ID`, `Patient_Signature`, and Patient_Relationship capture patient-specific and subscriber details.
 - **Service Details**: Columns like `Service_Date`, `Service_Thru`, `Admission_Date`, `D`ischarge_Date`, and `Procedure_Code` manage information about the healthcare services provided.
